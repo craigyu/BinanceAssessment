@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "9ff800e1-9a5c-41bd-a668-ba3044390270",
+		"name": "BinanceBackend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:5000/messages",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"hahaha\",\n    \"blog_content\": \"gggasd\",\n    \"user_id\": \"UgZj81\"\n\n}"
+				},
+				"url": {
+					"raw": "localhost:5000/messages",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"messages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/messages",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"message_id\": \"\",\n    \"message_content\": \"New coin release\",\n    \"telegram_group\": \"Unique\",\n    \"status\": \"Testing\",\n    \"type\": \"Pending\",\n    \"send_time\": \"2022-03-05 11:13:22(UTC)\",\n    \"creation_time\": \"2022-02-28 05:21:34(UTC)\",\n    \"creator\": \"QA@binance.us\"\n\n}"
+				},
+				"url": {
+					"raw": "localhost:5000/messages",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"messages"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/messages/8270219342493092",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"message_id\": \"8270219342493092\",\n    \"message_content\": \"New coin release\",\n    \"telegram_group\": \"Unique\",\n    \"status\": \"Testing\",\n    \"type\": \"BRUH\",\n    \"send_time\": \"2022-03-05 11:13:22(UTC)\",\n    \"creation_time\": \"2022-02-28 05:21:34(UTC)\",\n    \"creator\": \"QA@binance.us\"\n\n}"
+				},
+				"url": {
+					"raw": "localhost:5000/messages/8270219342493092",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"messages",
+						"8270219342493092"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:5000/messages/8270219342493092",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"hahaha\",\n    \"blog_content\": \"gggasd\",\n    \"user_id\": \"UgZj81\"\n\n}"
+				},
+				"url": {
+					"raw": "localhost:5000/messages/8270219342493092",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"messages",
+						"8270219342493092"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
