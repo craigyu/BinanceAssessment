@@ -67,5 +67,5 @@ When planning for this project, I had lots of ideas for features, but I ended up
 
 ---
 ## Conclusion
-Since this project is fairly straightforward, I did not implement any test due to my limited time. I believe by implemnting the backend can better demonstrate my range of skills. However, I do believe the importance of having tests.\
-Though I'm more experienced with React as front end and Node as back end, I really enjoyed doing this project and trying out Java + Spring, it was less complicated than I thought. Coming back to Vue after a few years made me appreciate React a little more, it just feels more structured, but I think it's mostly due to my familiarity with React. 
+Since this project is fairly straightforward, I did not implement any test due to my limited time. I believe by implemnting the backend, it can better demonstrate my range of skills. However, I do believe the importance of having tests!\
+Though I'm more experienced with React as front-end and Node as back-end, I really enjoyed doing this project and trying out Java + Spring, it was less complicated than I thought. Coming back to Vue after a few years made me appreciate React a little more, it just feels more structured, but I think it's mostly due to my familiarity with React. 
