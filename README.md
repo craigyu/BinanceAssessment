@@ -4,8 +4,6 @@
 This project is done for the assesment of PNK Admin Engineer at Binance.US \
 To see the detail of the assesment requirement, please check out the `assignment.pdf` file.
 
-IMPORTANT: you need to run both back and frond end to see the working implemented functionalities. There is no mock data at front end.
-
 ---
 
 ## Back-end
@@ -39,36 +37,3 @@ It accepts 4 type of request:
 - Vue v3
 - Element Plus
 - Tailwind CSS
-
-### Completed Tasks
-- Basic Layout
-- Dashboard & List side menu
-- Dashboard component displays texts
-- List component displays a list of message objects
-- Insert, Edit, Delete entries 
-- Draggable pop-up dialogs
-- Partial responsive design
-
----
-## Envisioned but not implemented
-When planning for this project, I had lots of ideas for features, but I ended up not doing them due to lack of time. These are:
-- Backend unit test
-- Frontend component test using Cypress
-- End-to-End test
-- containerize using Docker
-- Login page
-- Auth on front and back end
-- Toggle dark theme
-- Finish responsive design 
-- Use an actual DB
-- Form Validation
-- DB data validation using Models
-
-
----
-## Conclusion
-Since this project is fairly straightforward, I did not implement any test due to my limited time. I believe by implemnting the backend, it can better demonstrate my range of skills. However, I do believe the importance of having tests!\
-Though I'm more experienced with React as front-end and Node as back-end, I really enjoyed doing this project and trying out Java + Spring, it was less complicated than I thought. Coming back to Vue after a few years made me appreciate React a little more, it just feels more structured, but I think it's mostly due to my familiarity with React. 
-
-## Acknowledgement
-The typing animation used in the Dashboard component is from here: https://github.com/Gayathri-Development/animations-vuejs/blob/main/src/components/TypeWriter.vue 
